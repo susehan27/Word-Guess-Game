@@ -1,0 +1,88 @@
+#header {
+    background-color: #ffff80;
+}
+
+#gameTitle1 {
+    float: right;
+    padding: 20px;
+    font-size: 100px;
+    font-family: 'Bangers', cursive;
+}
+
+#gameTitle2 {
+    float: left;
+    clear: both;
+    padding: 20px;
+    margin-top: 35px;
+    line-height: 30px;
+    font-size: 35px;
+    font-family: 'Concert One', cursive;
+}
+
+#titleEmojis {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    
+}
+
+#body {
+    padding: 50px;
+    background-color: #b3daff;
+    height: 900px;
+}
+
+#guessingBox {
+    border-style: solid;
+    border-width: 2px;
+    height: 300px;
+    padding: 50px;
+}
+
+#emojiPics {
+    width: 50px;
+    height: 50px;
+}
+
+.emoji {
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+}
+
+#wordLine {
+    margin: 20px auto;
+}
+
+#letterGuessedBox {
+    border-style: solid;
+    border-width: 2px;
+    height: 200px;
+}
+
+#attemptsLeftBox {
+    border-style: solid;
+    border-width: 2px;
+    height: 200px;
+}
+
+#winsBox {
+    border-style: solid;
+    border-width: 2px;
+    height: 100px;
+}
+
+#lossesBox {
+    border-style: solid;
+    border-width: 2px;
+    height: 100px;
+}
+
+.footer {
+    background-color: #ffff80;
+    position: fixed;
+    bottom: 0;
+    height: 10%;
+}
+
