@@ -47,7 +47,7 @@ function start() {
             $("#emojiPics").attr("src", "assets/images/drooling.png");
         }
         else if (randomWord === "unamused") {
-            $("#emojiPics").attr("src", "assets/images/amused.png");
+            $("#emojiPics").attr("src", "assets/images/unamused.png");
         }
         else if (randomWord === "confused") {
             $("#emojiPics").attr("src", "assets/images/confused.png");
@@ -62,11 +62,11 @@ function start() {
             $("#emojiPics").attr("src", "assets/images/nauseated.png");
         }
         else if (randomWord === "shushing") {
-            $("#emojiPics").attr("src", "assets/images/shushing.png");
+            $("#emojiPics").attr("src", "assets/images/quiet.png");
         }
         else if (randomWord === "nerd") {
             $("#emojiPics").attr("src", "assets/images/nerd.png");
-        } 
+        }
     });
     $('#attemptsLeft').text(attemptsLeft);
     $('#wordLine').text(output.join(" "));
@@ -106,8 +106,13 @@ function endOfRound() {
         
         setTimeout(function () {
             alert("You Win!");
+        }, 500);
+
+        setTimeout(function() {
             start();
-        }, 2000);
+            $("#emojiPics").attr("src", "assets/images/questionexclamation.png");
+        }, 1500);
+
     }
     else if (attemptsLeft === 0) {
         lossCounter++;
