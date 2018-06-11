@@ -58,6 +58,9 @@ function start() {
         else if (randomWord === "fearful") {
             $("#emojiPics").attr("src", "assets/images/fearful.png");
         }
+        else if (randomWord === "angry") {
+            $("#emojiPics").attr("src", "assets/images/angry.png");
+        }
         else if (randomWord === "nauseated") {
             $("#emojiPics").attr("src", "assets/images/nauseated.png");
         }
