@@ -13,23 +13,16 @@
 <body>
     <div class="container-fluid">
         <div class="row" id="header">
-            <div class="col-md-6">
-                <h1 id="gameTitle1">GUESS</h1>
-            </div>
-            <div class="col-md-1" id="gameTitle2">
-                <div class="row">the</div>
-                <div class="row">EMOJI</div>
-            </div>
-            <div class="col-md-5">
+            <div class="col-md-12">
+                <span id="titleGuess">GUESS </span>
+                <span id="titleTheEmoji"> THE EMOJI</span>
                 <img id="titleEmojis" src="assets/images/guess.png"></img>
-                <img id="titleEmojis" src="assets/images/abcd.png"></img>
-                <!-- <img id="titleEmojis" src="assets/images/double!!.png"></img> -->
+                <!-- <img id="titleEmojis" src="assets/images/abcd.png"></img> -->
             </div>
         </div>
-        <div class="row" id="whiteLine"></div>
         <div class="row" id="body">
             <div class="col-md-2"></div>
-            <div class="col-md-4" id="guessingBox">
+            <div class="col-md-4 box" id="guessingBox">
                 <div class="row emoji">
                     <div id="direction">Type Any Letter To Start Guessing the Word</div>
                     <strong id="emoji">Click Below For A Hint </strong><br>
@@ -41,19 +34,19 @@
             </div>
             <div class="col-md-4">
                 <div class="row">
-                    <div class="col" id="letterGuessedBox">
+                    <div class="col box" id="letterGuessedBox">
                          <strong>Wrong Guesses: </strong><span id="letterGuessed"></span>
                     </div>
-                    <div class="col" id="attemptsLeftBox">
+                    <div class="col box" id="attemptsLeftBox">
                         <strong>Attempts Left: </strong><span id="attemptsLeft">9</span>
                     </div> 
                 </div>
 
                 <div class="row"> 
-                    <div class="col" id="winsBox">
+                    <div class="col box" id="winsBox">
                         <strong>Wins: </strong><span id="wins">0</span>
                     </div>
-                    <div class="col" id="lossesBox">
+                    <div class="col box" id="lossesBox">
                         <strong>Losses: </strong><span id="losses">0</span>
                     </div>
                 </div>
@@ -61,8 +54,8 @@
             <div class="col-md-2"></div>
         </div>
         
-        <div class="row whiteline">
-            <div class="col-md-12 footer"></div>
+        <div class="row">
+            <div class="col" id="footer"></div>
         </div>
     
     </div>

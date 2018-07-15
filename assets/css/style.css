@@ -1,41 +1,34 @@
+body {
+    font-family: 'Concert One', cursive;
+    color: white;
+}
 #header {
-    background-color: #ffff80;
+    background-color: #fec63f;
+    text-align: center;
 }
 
-#gameTitle1 {
-    float: right;
-    padding: 20px;
+#titleGuess {
     font-size: 100px;
     font-family: 'Bangers', cursive;
 }
 
-#gameTitle2 {
-    float: left;
-    clear: both;
-    padding: 20px;
-    margin-top: 35px;
-    line-height: 30px;
-    font-size: 35px;
+#titleTheEmoji {
+    font-size: 100px;
     font-family: 'Concert One', cursive;
+    font-weight: thin;
+    color: rgb(120, 157, 206);
+
 }
 
 #titleEmojis {
-    float: left;
     width: 70px;
     height: 70px;
-    margin-top: 40px;
-    
 }
 
 #body {
     padding: 50px;
-    background-color: #b3daff;
-    height: 600px;
-}
-
-#whiteLine {
-    background-color: white;
-    height: 20px;
+    color: rgb(120, 157, 206);
+    height: auto;
 }
 
 #guessingBox {
@@ -84,10 +77,15 @@
     height: 100px;
 }
 
-.footer {
-    background-color: #ffff80;
+.box {
+    border-radius: 10px;
+}
+
+#footer {
+    background-color:#fec63f;
     position: fixed;
     bottom: 0;
     height: 10%;
+    
 }
 
